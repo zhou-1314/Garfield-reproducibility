@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW
+brain10x,no_cluster_loss,2024,50,{},"{""include_cluster_loss"": false}",rna:celltype,10647,1743.8,0.2,21,20,0.4,0.4774031342491421,0.597327624893884,0.5945366286084806,0.600676649922956,0.09977054940200288

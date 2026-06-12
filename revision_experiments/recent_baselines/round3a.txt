@@ -1,0 +1,4 @@
+ep40|{"n_epochs":40}
+ep30|{"n_epochs":30}
+ep50bn64|{"n_epochs":50,"bottle_neck_neurons":64}
+ep60bn50|{"n_epochs":60,"bottle_neck_neurons":50}

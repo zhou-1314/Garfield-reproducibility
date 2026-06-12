@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "tag": "gene3adj50",
+  "overrides": {
+    "n_epochs": 100,
+    "lambda_gene_expr_recon": 3,
+    "lambda_latent_adj_recon_loss": 50
+  },
+  "latent_dim": 20,
+  "n_obs": 9215,
+  "duration_seconds": 145.3
+}

@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW
+brain10x,svdq_1,2024,50,"{""augment_type"": ""svd"", ""svd_q"": 1}",{},rna:celltype,10647,2549.6,0.2,21,22,0.6,0.45726885170104736,0.5936629372460764,0.5906767334600007,0.6277254660496596,0.08620635827726612

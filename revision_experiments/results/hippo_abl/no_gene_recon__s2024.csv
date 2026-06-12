@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,n_obs,train_sec,leiden_res,n_clusters,ASW_cluster,spatial_coherence,calinski_harabasz,davies_bouldin,niches_ARI_bestres
+hippo,no_gene_recon,2024,50,"{""lambda_gene_expr_recon"": 0.0}",{},41786,2560.4,0.5,16,0.22068366560054084,0.4395898147704973,7204.633952697583,1.3868860825716922,0.3562679469522096

@@ -1,0 +1,44 @@
+{
+  "method": "FGOT",
+  "status": "success",
+  "n_spots": 9215,
+  "n_genes": 1795,
+  "n_peaks": 2374,
+  "n_feature_edges": 3232,
+  "emb_shape": [
+    9215,
+    50
+  ],
+  "P_sum": 163932.76638118253,
+  "P_nnz": 5073317,
+  "duration_seconds": 1452.55,
+  "device": "cuda:0",
+  "params": {
+    "batchsize": 600,
+    "eps_p": 0.1,
+    "rho_mu": 10.0,
+    "rho_nu": 10.0,
+    "n_pcs": 50
+  },
+  "input_manifest": {
+    "n_spots": 9215,
+    "n_genes_selected": 1795,
+    "n_peaks_selected": 2374,
+    "target_rna": 503,
+    "target_atac": 5061,
+    "n_tss_genes": 55367,
+    "scope": 150000,
+    "n_hvg_rna": 3000,
+    "n_hvg_atac": 8000,
+    "cost_min": 0.0,
+    "cost_max": 1.7182819843292236,
+    "subset_max_obs": null,
+    "approximations": [
+      "scanpy seurat_v3 HVG on raw per-spot counts instead of Seurat metacell HVG",
+      "genes/peaks trimmed to prior-feature-graph connected nodes",
+      "WNN cost approximated by mean RNA/ATAC SNN connectivity (PCA+LSI), cost=exp(1-wnn)-min",
+      "RNA_clusters used as paired mini-batch cluster label"
+    ]
+  },
+  "timestamp": "2026-06-10 04:25:48 UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "tag": "cn30ep60",
+  "overrides": {
+    "n_epochs": 60,
+    "bottle_neck_neurons": 50,
+    "lambda_latent_contrastive_clusterloss": 1.0,
+    "cluster_num": 30
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 566.7
+}

@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "tag": "bn50",
+  "overrides": {
+    "n_epochs": 100,
+    "bottle_neck_neurons": 50
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 278.6
+}

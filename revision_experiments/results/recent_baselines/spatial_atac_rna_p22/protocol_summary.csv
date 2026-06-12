@@ -1,0 +1,2 @@
+dataset,rna_path,atac_path,annotation_path,primary_label,secondary_label,evaluation
+P22 spatial ATAC-RNA mouse brain,/data2/zhouwg_data/project/Garfield_tutorials/data/spatial_atac_rna_seq_mouse_brain_rna.h5ad,/data2/zhouwg_data/project/Garfield_tutorials/data/spatial_atac_rna_seq_mouse_brain_atac.h5ad,/data2/zhouwg_data/project/Garfield_tutorials/data/spatial_atac_rna_seq_mouse_brain_cell_type_annotations.csv,predicted.celltype,ATAC_clusters,"Leiden resolution sweep; select resolution with cluster count closest to label count, then report ARI/NMI/AMI/HOM/ASW"

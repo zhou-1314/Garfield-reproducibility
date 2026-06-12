@@ -1,0 +1,3 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,batch_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW,batch_n,ASW_batch,batch_knn_entropy
+nsclc1pct,baseline_no_mmd,2024,20,"{""used_mmd"": false}",{},cell_type,batch,7017,144.0,45.37,10,12,0.1,0.1513968266262897,0.3595625703319812,0.3571993555516468,0.3911135989649907,0.0642817890284569,8,0.2049575536887041,0.1453943088989493
+nsclc1pct,with_mmd,2024,20,"{""used_mmd"": true}",{},cell_type,batch,7017,168.2,45.37,10,10,0.1,0.1821840614115518,0.4437039836762209,0.4419957703056185,0.470625625363321,0.0833170152075537,8,-0.0351641066853218,0.2261968989413989

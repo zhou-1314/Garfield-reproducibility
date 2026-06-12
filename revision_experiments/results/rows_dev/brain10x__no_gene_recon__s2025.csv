@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,batch_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW
+brain10x,no_gene_recon,2025,50,"{""lambda_gene_expr_recon"": 0.0}",{},rna:celltype,,10647,533.4,67.92,21,20,1.3,0.3568205712997772,0.5256029370644709,0.5224597648993222,0.5638750380498436,0.02121780632826906

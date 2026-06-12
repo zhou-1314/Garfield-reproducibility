@@ -1,0 +1,32 @@
+# Data, model artifacts and caches are not tracked — provide them locally
+# (see README for the datasets each experiment expects).
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.bed
+*.gz
+*.bz2
+*.zip
+*.tar
+
+# Preprocessing / run caches and scratch work directories.
+**/_cache/
+**/_gf_workdir/
+**/_shared_cache/
+revision_experiments/recent_baselines/fgot_inputs/
+
+# Python build artifacts.
+__pycache__/
+*.pyc
+*.pyo
+*.so
+.ipynb_checkpoints/

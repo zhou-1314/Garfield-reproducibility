@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "tag": "B_adj50_ep200_bn30",
+  "overrides": {
+    "lambda_latent_adj_recon_loss": 50,
+    "n_epochs": 200,
+    "bottle_neck_neurons": 30
+  },
+  "latent_dim": 30,
+  "n_obs": 9215,
+  "duration_seconds": 143.4
+}

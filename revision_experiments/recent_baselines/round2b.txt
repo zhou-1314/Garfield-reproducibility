@@ -1,0 +1,5 @@
+bn50|{"n_epochs":100,"bottle_neck_neurons":50}
+bn64|{"n_epochs":100,"bottle_neck_neurons":64}
+gene3adj50|{"n_epochs":100,"lambda_gene_expr_recon":3,"lambda_latent_adj_recon_loss":50}
+inst2cl1|{"n_epochs":100,"lambda_latent_contrastive_instanceloss":2,"lambda_latent_contrastive_clusterloss":1}
+ep50bn50|{"n_epochs":50,"bottle_neck_neurons":50}

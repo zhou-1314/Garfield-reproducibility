@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "tag": "cn30svdq12",
+  "overrides": {
+    "n_epochs": 50,
+    "bottle_neck_neurons": 50,
+    "lambda_latent_contrastive_clusterloss": 1.0,
+    "cluster_num": 30,
+    "svd_q": 12
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 347.0
+}

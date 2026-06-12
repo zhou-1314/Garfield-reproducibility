@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "tag": "ep50bn64b",
+  "overrides": {
+    "n_epochs": 50,
+    "bottle_neck_neurons": 64
+  },
+  "latent_dim": 64,
+  "n_obs": 9215,
+  "duration_seconds": 160.6
+}

@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 18.456,
+  "exception_type": "ValueError",
+  "message": "gene_peak_Net is not existed! Run Cal_gene_peak_Net first!",
+  "method": "MultiGATE",
+  "status": "failed",
+  "timestamp": "2026-06-09 07:34:57 UTC",
+  "traceback": "Traceback (most recent call last):\n  File \"revision_experiments/recent_baselines/run_multigate.py\", line 128, in main\n    save_loss=True,\n  File \"/home/zhouweige/anaconda3/envs/MultiGATEenv/lib/python3.7/site-packages/MultiGATE/Train_MultiGATE.py\", line 98, in train_MultiGATE\n    \"gene_peak_Net is not existed! Run Cal_gene_peak_Net first!\")\nValueError: gene_peak_Net is not existed! Run Cal_gene_peak_Net first!\n"
+}

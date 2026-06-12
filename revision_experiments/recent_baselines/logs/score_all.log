@@ -1,0 +1,7 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+pseudo-GT obs_names written 9215 | obs cols: ['niche_type_sub', 'niche_type', 'predicted.celltype', 'ATAC_clusters']
+SKIP Garfield_released (no emb: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/results/recent_baselines/spatial_atac_rna_p22/pseudo_gt/garfield_latent_released.npy)
+SKIP Garfield (no emb: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/results/recent_baselines/spatial_atac_rna_p22/garfield_dev_pred/garfield_latent_dev.npy)
+=== scoring soFusion ===
+[SCORED] soFusion  ARI=0.1949 NMI=0.3498 AMI=0.3489 HOM=0.2684 SHT=0.4974 (n=9215, k=14->5)
+  method  n_obs_scored  n_target  n_pred  leiden_res      ARI      NMI      AMI      HOM       ASW    CHAOS      PAS  Moran_I  spatial_coherence

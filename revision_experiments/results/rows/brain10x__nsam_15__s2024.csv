@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW
+brain10x,nsam_15,2024,50,"{""num_neighbors"": 15}",{},rna:celltype,10647,1675.6,0.35,21,22,0.5,0.49016967936971273,0.6010855644740991,0.5980992712499202,0.6199024355925956,0.07768652468346345

@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "tag": "ep75cl2",
+  "overrides": {
+    "n_epochs": 75,
+    "lambda_latent_contrastive_clusterloss": 2.0
+  },
+  "latent_dim": 20,
+  "n_obs": 9215,
+  "duration_seconds": 142.3
+}

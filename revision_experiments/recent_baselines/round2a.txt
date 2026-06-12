@@ -1,0 +1,5 @@
+base100|{"n_epochs":100}
+ep50|{"n_epochs":50}
+ep75|{"n_epochs":75}
+adj50|{"n_epochs":100,"lambda_latent_adj_recon_loss":50}
+adj20e10|{"n_epochs":100,"lambda_latent_adj_recon_loss":20,"lambda_edge_recon":10}

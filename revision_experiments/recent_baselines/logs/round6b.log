@@ -1,0 +1,20 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g2] cn30big (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"hidden_dims":[256,256]} =====
+Traceback (most recent call last):
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.68 GiB. GPU 0 has a total capacty of 79.15 GiB of which 3.65 GiB is free. Process 108697 has 2.19 GiB memory in use. Process 2372674 has 2.29 GiB memory in use. Including non-PyTorch memory, this process has 71.01 GiB memory in use. Of the allocated memory 67.07 GiB is allocated by PyTorch, and 3.42 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+===== [g2] cn30drop1 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"dropout":0.1} =====
+[  343.0s] training done
+[  343.0s] DONE latent_cn30drop1.npy (9215, 50)
+=== cn30drop1: MEAN ARI=0.3055  MEAN NMI=0.3778  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] cn25 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":25} =====
+[  288.8s] training done
+[  288.8s] DONE latent_cn25.npy (9215, 50)
+=== cn25: MEAN ARI=0.3065  MEAN NMI=0.3796  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] cn30ep65 (cache=shared) :: {"n_epochs":65,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30} =====
+[  286.4s] training done
+[  286.4s] DONE latent_cn30ep65.npy (9215, 50)
+=== cn30ep65: MEAN ARI=0.3196  MEAN NMI=0.3852  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: ARI-only
+[g2] ROUND4 BATCH DONE

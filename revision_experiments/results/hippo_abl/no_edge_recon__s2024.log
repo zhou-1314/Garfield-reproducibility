@@ -1,0 +1,79 @@
+Saving results in: /tmp/abl_hippo_no_edge_recon_s2024
+--- DATA LOADING AND PREPROCESSING ---
+COSINE SIM GRAPH DECODER -> dropout_rate: 0.2
+
+--- Using Original Trainer (Single GPU) ---
+Initializing original Garfield trainer...
+
+--- INITIALIZING TRAINER ---
+Using GPU: device-0
+Number of training nodes: 37607
+Number of validation nodes: 4179
+Number of training edges: 412770
+Number of validation edges: 45863
+Edge batch size: 4096
+Node batch size: 256
+
+--- MODEL TRAINING ---
+Epoch 1/50 |--------------------| 2.0% train_global_loss: 6205.6886; train_optim_loss: 6205.6886; val_global_loss: 5785.0782; val_optim_loss: 5785.0782
+Epoch 2/50 |--------------------| 4.0% train_global_loss: 5823.0948; train_optim_loss: 5823.0948; val_global_loss: 5696.2581; val_optim_loss: 5696.2581
+Epoch 3/50 |█-------------------| 6.0% train_global_loss: 5708.9387; train_optim_loss: 5708.9387; val_global_loss: 5636.8720; val_optim_loss: 5636.8720
+Epoch 4/50 |█-------------------| 8.0% train_global_loss: 5667.2837; train_optim_loss: 5667.2837; val_global_loss: 5609.1578; val_optim_loss: 5609.1578
+Epoch 5/50 |██------------------| 10.0% train_global_loss: 5627.8420; train_optim_loss: 5627.8420; val_global_loss: 5566.7757; val_optim_loss: 5566.7757
+Epoch 6/50 |██------------------| 12.0% train_global_loss: 5594.0048; train_optim_loss: 5594.0048; val_global_loss: 5534.2994; val_optim_loss: 5534.2994
+Epoch 7/50 |██------------------| 14.0% train_global_loss: 5564.8108; train_optim_loss: 5564.8108; val_global_loss: 5514.5413; val_optim_loss: 5514.5413
+Epoch 8/50 |███-----------------| 16.0% train_global_loss: 5535.9174; train_optim_loss: 5535.9174; val_global_loss: 5480.9598; val_optim_loss: 5480.9598
+Epoch 9/50 |███-----------------| 18.0% train_global_loss: 5524.4406; train_optim_loss: 5524.4406; val_global_loss: 5499.4543; val_optim_loss: 5499.4543
+Epoch 10/50 |████----------------| 20.0% train_global_loss: 5508.8419; train_optim_loss: 5508.8419; val_global_loss: 5485.2874; val_optim_loss: 5485.2874
+Epoch 11/50 |████----------------| 22.0% train_global_loss: 5494.8457; train_optim_loss: 5494.8457; val_global_loss: 5489.8588; val_optim_loss: 5489.8588
+Epoch 12/50 |████----------------| 24.0% train_global_loss: 5495.5589; train_optim_loss: 5495.5589; val_global_loss: 5473.8447; val_optim_loss: 5473.8447
+Epoch 13/50 |█████---------------| 26.0% train_global_loss: 5490.3859; train_optim_loss: 5490.3859; val_global_loss: 5459.7251; val_optim_loss: 5459.7251
+Epoch 14/50 |█████---------------| 28.0% train_global_loss: 5477.7946; train_optim_loss: 5477.7946; val_global_loss: 5459.3813; val_optim_loss: 5459.3813
+Epoch 15/50 |██████--------------| 30.0% train_global_loss: 5473.0700; train_optim_loss: 5473.0700; val_global_loss: 5464.4460; val_optim_loss: 5464.4460
+Epoch 16/50 |██████--------------| 32.0% train_global_loss: 5459.0373; train_optim_loss: 5459.0373; val_global_loss: 5456.4135; val_optim_loss: 5456.4135
+Epoch 17/50 |██████--------------| 34.0% train_global_loss: 5455.4149; train_optim_loss: 5455.4149; val_global_loss: 5439.3741; val_optim_loss: 5439.3741
+Epoch 18/50 |███████-------------| 36.0% train_global_loss: 5455.9041; train_optim_loss: 5455.9041; val_global_loss: 5442.9932; val_optim_loss: 5442.9932
+Epoch 19/50 |███████-------------| 38.0% train_global_loss: 5457.6724; train_optim_loss: 5457.6724; val_global_loss: 5442.9830; val_optim_loss: 5442.9830
+Epoch 20/50 |████████------------| 40.0% train_global_loss: 5448.2745; train_optim_loss: 5448.2745; val_global_loss: 5439.5759; val_optim_loss: 5439.5759
+Epoch 21/50 |████████------------| 42.0% train_global_loss: 5435.9885; train_optim_loss: 5435.9885; val_global_loss: 5425.9616; val_optim_loss: 5425.9616
+Epoch 22/50 |████████------------| 44.0% train_global_loss: 5447.6009; train_optim_loss: 5447.6009; val_global_loss: 5423.3138; val_optim_loss: 5423.3138
+Epoch 23/50 |█████████-----------| 46.0% train_global_loss: 5435.8055; train_optim_loss: 5435.8055; val_global_loss: 5410.5334; val_optim_loss: 5410.5334
+Epoch 24/50 |█████████-----------| 48.0% train_global_loss: 5431.4677; train_optim_loss: 5431.4677; val_global_loss: 5418.6533; val_optim_loss: 5418.6533
+Epoch 25/50 |██████████----------| 50.0% train_global_loss: 5429.2626; train_optim_loss: 5429.2626; val_global_loss: 5427.1419; val_optim_loss: 5427.1419
+Epoch 26/50 |██████████----------| 52.0% train_global_loss: 5426.6814; train_optim_loss: 5426.6814; val_global_loss: 5441.9552; val_optim_loss: 5441.9552
+Epoch 27/50 |██████████----------| 54.0% train_global_loss: 5427.0003; train_optim_loss: 5427.0003; val_global_loss: 5420.4495; val_optim_loss: 5420.4495
+
+Reducing learning rate: metric has not improved more than 0.0 in the last 4 epochs.
+New learning rate is 0.0001.
+
+Epoch 28/50 |███████████---------| 56.0% train_global_loss: 5408.1647; train_optim_loss: 5408.1647; val_global_loss: 5400.8923; val_optim_loss: 5400.8923
+Epoch 29/50 |███████████---------| 58.0% train_global_loss: 5413.0525; train_optim_loss: 5413.0525; val_global_loss: 5376.8670; val_optim_loss: 5376.8670
+Epoch 30/50 |████████████--------| 60.0% train_global_loss: 5411.3767; train_optim_loss: 5411.3767; val_global_loss: 5358.8757; val_optim_loss: 5358.8757
+Epoch 31/50 |████████████--------| 62.0% train_global_loss: 5403.7386; train_optim_loss: 5403.7386; val_global_loss: 5394.7965; val_optim_loss: 5394.7965
+Epoch 32/50 |████████████--------| 64.0% train_global_loss: 5412.8711; train_optim_loss: 5412.8711; val_global_loss: 5403.2912; val_optim_loss: 5403.2912
+Epoch 33/50 |█████████████-------| 66.0% train_global_loss: 5407.1703; train_optim_loss: 5407.1703; val_global_loss: 5372.7548; val_optim_loss: 5372.7548
+Epoch 34/50 |█████████████-------| 68.0% train_global_loss: 5395.2123; train_optim_loss: 5395.2123; val_global_loss: 5389.8034; val_optim_loss: 5389.8034
+
+Reducing learning rate: metric has not improved more than 0.0 in the last 4 epochs.
+New learning rate is 1e-05.
+
+Epoch 35/50 |██████████████------| 70.0% train_global_loss: 5396.0294; train_optim_loss: 5396.0294; val_global_loss: 5364.0939; val_optim_loss: 5364.0939
+Epoch 36/50 |██████████████------| 72.0% train_global_loss: 5404.3616; train_optim_loss: 5404.3616; val_global_loss: 5409.3691; val_optim_loss: 5409.3691
+Epoch 37/50 |██████████████------| 74.0% train_global_loss: 5401.0716; train_optim_loss: 5401.0716; val_global_loss: 5368.5013; val_optim_loss: 5368.5013
+Epoch 38/50 |███████████████-----| 76.0% train_global_loss: 5404.9454; train_optim_loss: 5404.9454; val_global_loss: 5388.8090; val_optim_loss: 5388.8090
+
+Stopping early: metric has not improved more than 0.0 in the last 8 epochs.
+If the early stopping criterion is too strong, please instantiate it with different parameters in the train method.
+Model training finished after 58 min 24 sec.
+Using best model state, which was in epoch 30.
+
+--- MODEL EVALUATION ---
+val AUROC score: 0.9515
+val AUPRC score: 0.9428
+val best accuracy score: 0.8849
+val best F1 score: 0.8888
+val MSE score: 0.2586
+
+--- COMPUTING LATENT EMBEDDINGS ---
+Embeddings stored in adata.obsm['garfield_latent']
+[DONE] hippo/no_edge_recon ASW_clu=0.163 spatial_coh=0.843 niches_ARI=0.477 nclu=12 (3651s)

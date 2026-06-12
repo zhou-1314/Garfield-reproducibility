@@ -1,0 +1,14 @@
+{
+  "defaults": "RNA scanpy HVG=5000; ATAC peaks=100000/LSI=50; intra_knns=10; inter_knn_base=10; w_g=0.8; net=wlgcn; lr=0.01; T=0.01; epochs=100",
+  "device": "cuda:0",
+  "duration_seconds": 1169.888,
+  "embedding_dim": 32,
+  "message": "SpaMosaic completed on P22 paired RNA+ATAC slice using demo defaults.",
+  "method": "SpaMosaic",
+  "n_obs": 9215,
+  "sanity_metrics": "ok",
+  "source": "/data2/zhouwg_data/project/Garfield_benchmark/SpaMosaic",
+  "status": "success",
+  "timestamp": "2026-06-10 04:16:51 UTC",
+  "used_full_p22": true
+}

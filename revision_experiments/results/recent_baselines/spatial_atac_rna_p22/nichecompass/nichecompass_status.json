@@ -1,0 +1,12 @@
+{
+  "method": "NicheCompass",
+  "status": "success",
+  "n_obs": 9215,
+  "emb_shape": [
+    9215,
+    1297
+  ],
+  "duration_seconds": 4643.46,
+  "env": "NicheCompass (conda env 'NicheCompass'), nichecompass 0.2.0",
+  "gp_choice": "Prior-knowledge gene-program mask built from OmniPath LR (web API) + NicheNet LR-target v2 mouse (local CSV) + MEBOCOST metabolite-enzyme-sensor mouse (local TSV), combined and filtered (subset mode, overlap thresh 0.9). n_GPs_after_filter=1629. (NicheCompass run on the RNA modality with the squidpy spatial graph, matching the paper's benchmarking setup.)"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "tag": "cn30svdq10cl15",
+  "overrides": {
+    "n_epochs": 50,
+    "bottle_neck_neurons": 50,
+    "lambda_latent_contrastive_clusterloss": 1.5,
+    "cluster_num": 30,
+    "svd_q": 10
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 595.7
+}

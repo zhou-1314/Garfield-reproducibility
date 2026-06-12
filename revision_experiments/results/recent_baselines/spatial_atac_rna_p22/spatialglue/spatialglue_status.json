@@ -1,0 +1,11 @@
+{
+  "method": "SpatialGlue",
+  "status": "success",
+  "n_obs": 9215,
+  "emb_shape": [
+    9215,
+    64
+  ],
+  "duration_seconds": 151.39,
+  "env": "conda -p /home/zhouweige/zhouwg_data/conda_env/SpatialGlue, CUDA_VISIBLE_DEVICES=2, datatype=Spatial-epigenome-transcriptome"
+}

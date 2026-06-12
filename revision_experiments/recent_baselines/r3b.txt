@@ -1,0 +1,4 @@
+ep45bn50|{"n_epochs":45,"bottle_neck_neurons":50}
+ep50bn50cl2|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":2.0}
+ep50bn50i2cl1|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_instanceloss":2,"lambda_latent_contrastive_clusterloss":1}
+ep35bn50|{"n_epochs":35,"bottle_neck_neurons":50}

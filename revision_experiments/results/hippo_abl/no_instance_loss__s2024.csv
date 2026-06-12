@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,n_obs,train_sec,leiden_res,n_clusters,ASW_cluster,spatial_coherence,calinski_harabasz,davies_bouldin,niches_ARI_bestres
+hippo,no_instance_loss,2024,50,{},"{""include_instance_loss"": false}",41786,3019.8,0.5,13,0.17409721913113477,0.7893816110659072,5173.709935106627,1.4893421617942193,0.4439002699207054

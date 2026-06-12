@@ -1,0 +1,23 @@
+# Figure accessibility alt-text (Garfield manuscript)
+
+One self-contained alt-text sentence per figure, describing the visual content for non-sighted readers.
+
+## Main figures
+
+- **Fig 1** (Figs/Fig1.pdf): Three-tier schematic: top row shows transcriptome, epigenome, proteome and spatial-omics input icons feeding into a middle graph-neural-network encoder that aggregates cell neighbors into a shared latent space, with downstream single-cell and spatial analysis task icons arranged along the bottom.
+- **Fig 2** (Figs/Fig2.pdf): Multi-panel benchmark: scatter plots of batch-mixing versus biological-conservation scores and bar/dot plots comparing five integration methods across RNA+ATAC and RNA+protein datasets, plus an annotated mouse-brain coronal section, a colored spatial niche map, a metrics table, and a multi-method radar chart.
+- **Fig 3** (Figs/Fig3.pdf): Spatial niche-detection panels: annotated hippocampus reference and manual niche maps, dot plots of five clustering metrics across methods, paired UMAP and tissue spatial scatter plots of niches for olfactory-bulb slices, CHAOS-versus-resolution bar plots, a reference UMAP with mapped query cells, and a cell-type-proportion heatmap with spatial scatter.
+- **Fig 4** (Figs/Fig4.pdf): NSCLC spatial-atlas panels: UMAPs colored by cell type, niche, and donor; stacked bar charts of cell-type and donor proportions per niche; tissue-section spatial plots localizing specific niches; a bubble plot of cell-type abundance across niches; reference and query UMAPs from label transfer; a Sankey diagram of tumor-cell-to-niche mapping; and a red-white Ro/e enrichment heatmap.
+- **Fig 5** (Figs/Fig5.pdf): Breast-cancer Xenium panels: UMAPs colored by cell type, niche, and replicate; spatial scatter maps of cells and niches across two slices; a cell-type bubble plot; a niche dendrogram; neighborhood-composition boxplots; cell-cell interaction heatmaps with significance stars; tumor-edge spatial niche and cell-density maps; an outgoing-versus-incoming interaction scatter; a CD80 signaling network diagram; and two functional-enrichment bar plots.
+
+## Supplementary figures
+
+- **Fig S1** (Figs/FigS1.png): Grouped bar/metric panels comparing Garfield against Seurat V4, MultiVI, MOFA+, Multigrate, scArches and TotalVI using ARI, NMI, cLISI and cASW scores across nine single-cell RNA+ATAC datasets and four RNA+ADT datasets.
+- **Fig S2** (Figs/FigS2.pdf): Two rows of UMAP scatter plots of latent embeddings from different RNA+ATAC integration methods for one representative PBMC dataset, colored by original cell-type labels (top) and by method-derived molecular clusters (bottom).
+- **Fig S3** (Figs/FigS3.pdf): Two rows of UMAP scatter plots of latent embeddings from different RNA+ADT integration methods for one representative dataset (GSE128639), colored by original cell-type labels (top) and by method-derived molecular clusters (bottom).
+- **Fig S4** (Figs/FigS4.pdf): Spatial epigenome-transcriptome mouse-brain panels: tissue spatial scatter plots of individual niches, a niche-relationship dendrogram, and paired UMAP and spatial maps comparing niches from Garfield versus NicheCompass, SpatialGlue, MultiVI and MOFA, colored by ground-truth and method-derived niche labels.
+- **Fig S5** (Figs/FigS5.pdf): Two grouped bar-plot panels of ARI, NMI, AMI, HOM and ASW scores comparing Garfield with competing methods on a spatial multi-omics dataset, showing robustness across varying neighbor numbers (a) and random seeds (b).
+- **Fig S6** (Figs/FigS6.pdf): Hippocampus heterogeneity panels: a spatial scatter map of niches across anatomical regions, spatial expression maps of region-specific marker genes (Wfs1, Cpne4, C1ql2, Enpp2, Nwd2), and a clustered cell-type-proportion heatmap across niches.
+- **Fig S7** (Figs/FigS7.pdf): Olfactory-bulb panels for Stereo-seq and Slide-seqV2: spatial scatter plots of tissue structures (a-b) and of key marker-gene expression patterns (c-d), plus lollipop plots of mean marker expression across Garfield niches with the top niche highlighted (e-f).
+- **Fig S8** (Figs/FigS8.pdf): NSCLC supplementary panels: a cell-type-to-niche mapping plot, stacked bar charts of cell-type and donor proportions per niche, spatial expression maps of hub genes EGFR and S100A6, a red-white Ro/e cell-type enrichment heatmap, and a Sankey diagram of tumor-cell-to-niche label transfer.
+- **Fig S9** (Figs/FigS9.pdf): Breast-cancer supplementary panels: a CHAOS-versus-resolution bar plot, lollipop plots of marker-gene expression across niches, cell-cell interaction heatmaps for niches 4 and 12, a red-white Ro/e niche enrichment heatmap, and replicate-2 spatial maps of tumor/lymphoid niches and immune-cell densities.

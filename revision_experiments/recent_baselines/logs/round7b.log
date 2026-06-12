@@ -1,0 +1,17 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g2] cn30svdq8 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"svd_q":8} =====
+[  584.9s] training done
+[  584.9s] DONE latent_cn30svdq8.npy (9215, 50)
+=== cn30svdq8: MEAN ARI=0.2823  MEAN NMI=0.3762  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] cn30svdq15 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"svd_q":15} =====
+[  387.6s] training done
+[  387.7s] DONE latent_cn30svdq15.npy (9215, 50)
+=== cn30svdq15: MEAN ARI=0.3233  MEAN NMI=0.3821  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: ARI-only
+===== [g2] cn30svdq10ep55 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"svd_q":10,"n_epochs":55} =====
+[  546.8s] training done
+[  546.8s] DONE latent_cn30svdq10ep55.npy (9215, 50)
+=== cn30svdq10ep55: MEAN ARI=0.3116  MEAN NMI=0.3784  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+[g2] ROUND4 BATCH DONE

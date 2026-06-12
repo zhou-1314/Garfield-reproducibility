@@ -1,0 +1,2 @@
+dataset,tag,seed,epochs,overrides,flags,label_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW
+brain10x,edge_x10.0,2024,50,"{""lambda_edge_recon"": 5000.0}",{},rna:celltype,10647,1104.2,0.2,21,22,0.6,0.5058090487016433,0.600202236565172,0.5972401241293863,0.6270055386528129,0.09637833285082285

@@ -1,0 +1,61 @@
+[    0.0s] loading dataset nsclc1pct
+[    0.2s] dataset loaded
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/nsclc1pct_baseline_no_mmd_s2024
+[    0.4s] building Garfield model (runs preprocessing)
+--- DATA LOADING AND PREPROCESSING ---
+[    0.4s] loading cached preprocessed adata
+COSINE SIM GRAPH DECODER -> dropout_rate: 0.2
+[    0.4s] preprocessing done; starting training
+
+--- Using Original Trainer (Single GPU) ---
+Initializing original Garfield trainer...
+
+--- INITIALIZING TRAINER ---
+Using GPU: device-0
+Number of training nodes: 6315
+Number of validation nodes: 702
+Number of training edges: 73844
+Number of validation edges: 8204
+Edge batch size: 4096
+Node batch size: 128
+
+--- MODEL TRAINING ---
+Epoch 1/20 |█-------------------| 5.0% train_global_loss: 57283.3752; train_optim_loss: 57283.3752; val_global_loss: 46502.8802; val_optim_loss: 46502.8802
+Epoch 2/20 |██------------------| 10.0% train_global_loss: 44705.1275; train_optim_loss: 44705.1275; val_global_loss: 39025.6302; val_optim_loss: 39025.6302
+Epoch 3/20 |███-----------------| 15.0% train_global_loss: 40052.4120; train_optim_loss: 40052.4120; val_global_loss: 36838.4349; val_optim_loss: 36838.4349
+Epoch 4/20 |████----------------| 20.0% train_global_loss: 38667.8956; train_optim_loss: 38667.8956; val_global_loss: 34841.1842; val_optim_loss: 34841.1842
+Epoch 5/20 |█████---------------| 25.0% train_global_loss: 37428.6805; train_optim_loss: 37428.6805; val_global_loss: 34311.6595; val_optim_loss: 34311.6595
+Epoch 6/20 |██████--------------| 30.0% train_global_loss: 36491.3586; train_optim_loss: 36491.3586; val_global_loss: 33038.5788; val_optim_loss: 33038.5788
+Epoch 7/20 |███████-------------| 35.0% train_global_loss: 36159.1686; train_optim_loss: 36159.1686; val_global_loss: 33228.7214; val_optim_loss: 33228.7214
+Epoch 8/20 |████████------------| 40.0% train_global_loss: 35929.5969; train_optim_loss: 35929.5969; val_global_loss: 33845.0156; val_optim_loss: 33845.0156
+Epoch 9/20 |█████████-----------| 45.0% train_global_loss: 35335.7602; train_optim_loss: 35335.7602; val_global_loss: 32848.7513; val_optim_loss: 32848.7513
+Epoch 10/20 |██████████----------| 50.0% train_global_loss: 35477.7217; train_optim_loss: 35477.7217; val_global_loss: 32720.9531; val_optim_loss: 32720.9531
+Epoch 11/20 |███████████---------| 55.0% train_global_loss: 35027.3051; train_optim_loss: 35027.3051; val_global_loss: 32464.3372; val_optim_loss: 32464.3372
+Epoch 12/20 |████████████--------| 60.0% train_global_loss: 35218.9046; train_optim_loss: 35218.9046; val_global_loss: 31737.6283; val_optim_loss: 31737.6283
+Epoch 13/20 |█████████████-------| 65.0% train_global_loss: 35069.1021; train_optim_loss: 35069.1021; val_global_loss: 31996.0326; val_optim_loss: 31996.0326
+Epoch 14/20 |██████████████------| 70.0% train_global_loss: 34617.6463; train_optim_loss: 34617.6463; val_global_loss: 32589.2305; val_optim_loss: 32589.2305
+Epoch 15/20 |███████████████-----| 75.0% train_global_loss: 34905.6420; train_optim_loss: 34905.6420; val_global_loss: 32328.6393; val_optim_loss: 32328.6393
+Epoch 16/20 |████████████████----| 80.0% train_global_loss: 34804.9555; train_optim_loss: 34804.9555; val_global_loss: 31961.6068; val_optim_loss: 31961.6068
+
+Reducing learning rate: metric has not improved more than 0.0 in the last 4 epochs.
+New learning rate is 0.0001.
+
+Epoch 17/20 |█████████████████---| 85.0% train_global_loss: 34625.1403; train_optim_loss: 34625.1403; val_global_loss: 31824.1094; val_optim_loss: 31824.1094
+Epoch 18/20 |██████████████████--| 90.0% train_global_loss: 34040.3791; train_optim_loss: 34040.3791; val_global_loss: 31350.4036; val_optim_loss: 31350.4036
+Epoch 19/20 |███████████████████-| 95.0% train_global_loss: 33889.4763; train_optim_loss: 33889.4763; val_global_loss: 31816.3639; val_optim_loss: 31816.3639
+Epoch 20/20 |████████████████████| 100.0% train_global_loss: 34273.8781; train_optim_loss: 34273.8781; val_global_loss: 31334.4492; val_optim_loss: 31334.4492
+
+Model training finished after 2 min 11 sec.
+Using best model state, which was in epoch 20.
+
+--- MODEL EVALUATION ---
+val AUROC score: 0.9724
+val AUPRC score: 0.9611
+val best accuracy score: 0.9321
+val best F1 score: 0.9340
+val MSE score: 1.3941
+
+--- COMPUTING LATENT EMBEDDINGS ---
+Embeddings stored in adata.obsm['garfield_latent']
+[  144.0s] training done
+[DONE] nsclc1pct/baseline_no_mmd seed=2024 ARI=0.151 NMI=0.360 (144s, 45.4GB)

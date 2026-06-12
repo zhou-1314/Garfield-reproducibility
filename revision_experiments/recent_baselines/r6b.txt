@@ -1,0 +1,4 @@
+cn30big|shared|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"hidden_dims":[256,256]}
+cn30drop1|shared|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"dropout":0.1}
+cn25|shared|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":25}
+cn30ep65|shared|{"n_epochs":65,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30}

@@ -1,0 +1,10 @@
+method,n_obs_scored,n_target,n_pred,ARI,NMI,AMI,Homogeneity,Silhouette,gt_key
+soFusion,9215,33,9,0.1357,0.2144,0.21,0.171,0.4709,predicted.celltype
+SpaMI,9215,33,18,0.2195,0.3393,0.3323,0.3274,0.4324,predicted.celltype
+SpaMosaic,9215,33,16,0.2096,0.364,0.3579,0.34,0.4071,predicted.celltype
+FGOT,9215,33,17,0.0024,0.0236,0.014,0.0225,0.4768,predicted.celltype
+SpatialGlue,9215,33,20,0.2842,0.3928,0.3857,0.3841,0.4789,predicted.celltype
+MOFA,9215,33,6,0.226,0.3448,0.3424,0.2702,0.4463,predicted.celltype
+MultiVI,9215,33,18,0.1476,0.2972,0.2898,0.2877,0.3205,predicted.celltype
+NicheCompass,9215,33,20,0.2209,0.3252,0.3172,0.3097,0.4018,predicted.celltype
+Garfield,9215,33,9,0.2595,0.3654,0.3617,0.3018,0.461,predicted.celltype

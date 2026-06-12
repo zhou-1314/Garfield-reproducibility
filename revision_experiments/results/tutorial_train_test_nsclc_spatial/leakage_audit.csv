@@ -1,0 +1,14 @@
+,value
+source_notebook,Garfield_code/spatial-single-modal-code/spatial_niche_NSCLC.ipynb
+data_pattern,nanostring_cosmx_human_nsclc_subsample_1pct_batch*.h5ad
+use_full_data,False
+query_batch,lung13
+reference_batches,"lung5_rep1, lung5_rep2, lung5_rep3, lung6, lung9_rep1, lung9_rep2, lung12"
+reference_sample_col,
+query_sample_col,projection
+celltype_key_in_config,False
+broad_niche_key_in_config,False
+labels_in_reference_input,False
+labels_in_query_input,False
+reference_epochs,3
+query_epochs,2

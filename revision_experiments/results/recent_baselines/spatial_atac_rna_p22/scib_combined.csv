@@ -1,0 +1,6 @@
+method,n_obs_scored,n_target,n_pred,ARI,NMI,AMI,Homogeneity,Silhouette,gt_key
+Garfield,9215,14,7,0.3038,0.4963,0.4953,0.4168,0.5033,niche_type_sub
+soFusion,9215,14,5,0.1949,0.3498,0.3489,0.2684,0.4974,niche_type_sub
+SpaMI,9215,14,11,0.2525,0.4242,0.4225,0.4067,0.4868,niche_type_sub
+SpaMosaic,9215,14,11,0.2959,0.4725,0.4709,0.4444,0.4755,niche_type_sub
+FGOT,9215,14,17,0.002,0.0191,0.0148,0.0197,0.4819,niche_type_sub

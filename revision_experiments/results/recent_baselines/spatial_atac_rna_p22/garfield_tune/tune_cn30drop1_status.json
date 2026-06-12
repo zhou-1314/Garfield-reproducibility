@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "tag": "cn30drop1",
+  "overrides": {
+    "n_epochs": 50,
+    "bottle_neck_neurons": 50,
+    "lambda_latent_contrastive_clusterloss": 1.0,
+    "cluster_num": 30,
+    "dropout": 0.1
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 343.0
+}

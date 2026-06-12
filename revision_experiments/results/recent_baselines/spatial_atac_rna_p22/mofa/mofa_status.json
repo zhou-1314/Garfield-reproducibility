@@ -1,0 +1,11 @@
+{
+  "method": "MOFA+",
+  "status": "success",
+  "n_obs": 9215,
+  "emb_shape": [
+    9215,
+    10
+  ],
+  "duration_seconds": 470.0803453922272,
+  "env": "Garfield_benchmark"
+}

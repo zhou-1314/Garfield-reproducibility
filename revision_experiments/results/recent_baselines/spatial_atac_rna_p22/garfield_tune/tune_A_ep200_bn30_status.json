@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "tag": "A_ep200_bn30",
+  "overrides": {
+    "n_epochs": 200,
+    "bottle_neck_neurons": 30
+  },
+  "latent_dim": 30,
+  "n_obs": 9215,
+  "duration_seconds": 1071.2
+}

@@ -1,0 +1,28 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+=== hippo_sparse svd_q=5 ===
+[    0.0s] loading dataset hippo_sparse
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/hippo_sparse_svdq_5_s2024
+[DONE] hippo_sparse/svdq_5 seed=2024 ARI=0.657 NMI=0.749 (39s, 2.2GB)
+=== hippo_sparse svd_q=1 ===
+[    0.0s] loading dataset hippo_sparse
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/hippo_sparse_svdq_1_s2024
+[DONE] hippo_sparse/svdq_1 seed=2024 ARI=0.657 NMI=0.749 (41s, 2.2GB)
+=== hippo_sparse svd_q=3 ===
+[    0.0s] loading dataset hippo_sparse
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/hippo_sparse_svdq_3_s2024
+[DONE] hippo_sparse/svdq_3 seed=2024 ARI=0.657 NMI=0.749 (39s, 2.2GB)
+=== hippo_sparse svd_q=10 ===
+[    0.0s] loading dataset hippo_sparse
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/hippo_sparse_svdq_10_s2024
+[DONE] hippo_sparse/svdq_10 seed=2024 ARI=0.663 NMI=0.756 (48s, 2.2GB)
+=== hippo_sparse svd_q=20 ===
+[    0.0s] loading dataset hippo_sparse
+Saving results in: /data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/_runs/hippo_sparse_svdq_20_s2024
+[DONE] hippo_sparse/svdq_20 seed=2024 ARI=0.657 NMI=0.749 (39s, 2.2GB)
+=== HIPPO_SPARSE SVD_Q SWEEP DONE ===
+dataset,tag,seed,epochs,overrides,flags,label_key,batch_key,n_obs,train_sec,peak_gpu_gb,n_target,n_pred,leiden_res,ARI,NMI,AMI,HOM,ASW,batch_n,ASW_batch,batch_knn_entropy
+hippo_sparse,svdq_5,2024,50,"{""svd_q"": 5}",{},niche_type,batch,298,39.5,2.22,9,8,0.2,0.6573046226100709,0.7487376421162734,0.7352007857145781,0.7616187057742726,0.2722838470329232,1,nan,nan
+hippo_sparse,svdq_1,2024,50,"{""svd_q"": 1}",{},niche_type,batch,298,41.2,2.22,9,8,0.2,0.6573046226100709,0.7487376421162734,0.7352007857145781,0.7616187057742726,0.27224392580713275,1,nan,nan
+hippo_sparse,svdq_3,2024,50,"{""svd_q"": 3}",{},niche_type,batch,298,39.1,2.22,9,8,0.2,0.6573046226100709,0.7487376421162734,0.7352007857145781,0.7616187057742726,0.27248135783975463,1,nan,nan
+hippo_sparse,svdq_10,2024,50,"{""svd_q"": 10}",{},niche_type,batch,298,48.1,2.22,9,8,0.2,0.6634031010929535,0.7558128415611972,0.7426473087716375,0.7679283838865562,0.2724819175593574,1,nan,nan
+hippo_sparse,svdq_20,2024,50,"{""svd_q"": 20}",{},niche_type,batch,298,38.5,2.22,9,8,0.2,0.6573046226100709,0.7487376421162734,0.7352007857145781,0.7616187057742726,0.27226729381182163,1,nan,nan

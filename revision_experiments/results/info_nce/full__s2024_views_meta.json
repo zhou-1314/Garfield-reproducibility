@@ -1,0 +1,20 @@
+{
+  "description": "fixed-anchor view embeddings scored for I_NCE(z1;z2)",
+  "node_selection": "first eval_candidate_count seed nodes of each scored validation batch, in loader order; incomplete final batch dropped",
+  "eval_candidate_count": 256,
+  "fixed_K": 511,
+  "scored_batches": 16,
+  "skipped_incomplete_batches": 1,
+  "z1_shape": [
+    4096,
+    20
+  ],
+  "z2_shape": [
+    4096,
+    20
+  ],
+  "z1_abs_sum": 29245.166015625,
+  "z2_abs_sum": 25349.939453125,
+  "npz": "full__s2024_views.npz",
+  "npz_sha256": "c829ed7b97de6ac052191db37b05cdcee6eb355718e444042aec782601f91f0b"
+}

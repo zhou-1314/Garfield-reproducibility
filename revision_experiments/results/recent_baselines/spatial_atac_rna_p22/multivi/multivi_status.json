@@ -1,0 +1,14 @@
+{
+  "method": "MultiVI",
+  "status": "success",
+  "n_obs": 9215,
+  "emb_shape": [
+    9215,
+    10
+  ],
+  "duration_seconds": 1168.01,
+  "env": "scVI",
+  "n_obs_input_rna": 9215,
+  "n_genes_hvg": 3000,
+  "n_peaks_hvg": 10000
+}

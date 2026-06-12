@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "tag": "ep50bn50cl2",
+  "overrides": {
+    "n_epochs": 50,
+    "bottle_neck_neurons": 50,
+    "lambda_latent_contrastive_clusterloss": 2.0
+  },
+  "latent_dim": 50,
+  "n_obs": 9215,
+  "duration_seconds": 285.9
+}

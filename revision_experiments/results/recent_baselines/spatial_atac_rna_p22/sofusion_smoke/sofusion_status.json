@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 3.63,
+  "exception_type": "ValueError",
+  "message": "numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject",
+  "method": "soFusion",
+  "status": "failed",
+  "timestamp": "2026-06-09 07:00:42 UTC",
+  "traceback": "Traceback (most recent call last):\n  File \"revision_experiments/recent_baselines/run_sofusion.py\", line 101, in main\n    sc.pp.highly_variable_genes(atac, flavor=\"seurat_v3\", n_top_genes=8000)\n  File \"/home/zhouweige/anaconda3/envs/env_soFusion/lib/python3.8/site-packages/scanpy/preprocessing/_highly_variable_genes.py\", line 422, in highly_variable_genes\n    return _highly_variable_genes_seurat_v3(\n  File \"/home/zhouweige/anaconda3/envs/env_soFusion/lib/python3.8/site-packages/scanpy/preprocessing/_highly_variable_genes.py\", line 53, in _highly_variable_genes_seurat_v3\n    from skmisc.loess import loess\n  File \"/home/zhouweige/.local/lib/python3.8/site-packages/skmisc/loess/__init__.py\", line 51, in <module>\n    from ._loess import (loess, loess_model, loess_inputs, loess_control,\n  File \"_loess.pyx\", line 1, in init _loess\nValueError: numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject\n"
+}

@@ -1,0 +1,17 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g1] cn30 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30} =====
+[  353.6s] training done
+[  353.7s] DONE latent_cn30.npy (9215, 50)
+=== cn30: MEAN ARI=0.3157  MEAN NMI=0.3833  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: ARI-only
+===== [g1] cn40 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":40} =====
+[  281.6s] training done
+[  281.6s] DONE latent_cn40.npy (9215, 50)
+=== cn40: MEAN ARI=0.3057  MEAN NMI=0.3771  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g1] w07 (cache=w07) :: {"weight":0.7,"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0} =====
+[ 1199.2s] training done
+[ 1199.2s] DONE latent_w07.npy (9215, 50)
+=== w07: MEAN ARI=0.2903  MEAN NMI=0.3763  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+[g1] ROUND4 BATCH DONE

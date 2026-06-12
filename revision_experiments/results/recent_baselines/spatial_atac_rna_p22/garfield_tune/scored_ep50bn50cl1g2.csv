@@ -1,0 +1,4 @@
+method,n_obs_scored,n_target,n_pred,ARI,NMI,AMI,Homogeneity,Silhouette,gt_key
+Garfield_ep50bn50cl1g2,9215,14,9,0.3117,0.3605,0.3588,0.3322,0.5098,ATAC_clusters
+Garfield_ep50bn50cl1g2,9215,11,9,0.3393,0.4174,0.4161,0.4125,0.535,RNA_clusters
+Garfield_ep50bn50cl1g2,9215,33,9,0.2583,0.3673,0.3637,0.3029,0.4632,predicted.celltype

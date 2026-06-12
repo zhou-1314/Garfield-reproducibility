@@ -1,0 +1,33 @@
+% Supplementary table: architecture / efficiency comparison of recent spatial multi-omics methods (R1.3 / R2.A1 / R3.1)
+\begin{table}[ht]
+\centering
+\caption{\textbf{Architectural and computational comparison of Garfield with recent spatial multi-omics integration methods.} \revised{Methods marked ``benchmarked'' are evaluated quantitatively on the P22 spatial ATAC--RNA mouse-brain dataset (Supplementary Table~\ref{tab:recent_quant}); the remaining methods are compared architecturally because environment or preprocessing constraints preclude a fair quantitative rerun (legacy TensorFlow~1.x and a precomputed gene--peak graph for MultiGATE; a two-slice alignment design with R/\texttt{mclust} dependencies for SpatialFuser; no provisioned environment and ATAC-untested tutorials for SpaOmicsVAE).}}
+\label{tab:recent_arch}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{Method} & \textbf{Model type} & \textbf{Integration mechanism} & \textbf{Batch alignment} & \textbf{Scalability} & \textbf{Quant.} \\
+\midrule
+\textbf{Garfield} & Variational (VGAE) & ApproxSVD-guided graph & Optional MMD & Mini-batch; & ref. \\
+ & & contrastive + recon. & (+DSBN) & no dense $N{\times}N$; $>$$10^5$ & \\
+SpaMosaic & Deterministic GAE & Cross-modal graph & MNN inter-batch & Mini-batch ($>$8000); & yes \\
+ & & contrastive + MNN bridge & graph & sparse & \\
+SpaMI & Deterministic GCN-AE & Attention fusion + DGI & None & Full-graph, & yes \\
+ & & contrastive + cosine align & & dense $N{\times}N$; $\sim$$10^4$ & \\
+soFusion & Deterministic GCN-AE & Self-attention + learned & None & Full-graph, & yes \\
+ & (ZINB/Bernoulli dec.) & decoder fusion & & dense $N{\times}N$; $\sim$$10^4$ & \\
+FGOT & Optimal transport & Feature-guided unbalanced & OT coupling & Mini-batch over & yes$^{\dagger}$ \\
+ & (non-neural) & OT + alignment & (no learned corr.) & clusters; dense $N{\times}M$ & \\
+MultiGATE & Deterministic GATE & Graph-attention + CLIP/ & None & Full-graph; $\sim$$10^4$ & no$^{\ddagger}$ \\
+ & (TF1.x) & InfoNCE cross-modal & & & \\
+SpatialFuser & Deterministic GAT & Cross-attention + & OT/MNN cross- & Mixed; dense $N{\times}M$ & no$^{\ddagger}$ \\
+ & transformer & differentiable Sinkhorn OT & slice matching & at matching; $\sim$$10^4$/slice & \\
+SpaOmicsVAE & Variational (VGAE) & Dual-graph cross-attention & None & Full-graph; $\sim$$10^4$ & no$^{\ddagger}$ \\
+ & & fusion & & & \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\footnotesize\raggedright
+$^{\dagger}$\,FGOT's published P22 pipeline consumes Seurat-WNN preprocessed inputs that are not redistributed; we reconstructed the feature-selected matrices (HVG selection), gene--peak feature graph (Ensembl GRCm38 TSS), and an approximate cross-modality cost in Python, a faithful-architecture reproduction with these approximations disclosed. $^{\ddagger}$\,Compared architecturally only (see caption). All methods support RNA, ATAC and (most) protein/spatial modalities.
+\end{table}

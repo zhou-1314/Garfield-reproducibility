@@ -1,0 +1,22 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g2] ep65bn50cl1 (cache=shared) :: {"n_epochs":65,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0} =====
+[  280.1s] training done
+[  280.1s] DONE latent_ep65bn50cl1.npy (9215, 50)
+=== ep65bn50cl1: MEAN ARI=0.3017  MEAN NMI=0.3788  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep75cl2 (cache=shared) :: {"n_epochs":75,"lambda_latent_contrastive_clusterloss":2.0} =====
+[  142.3s] training done
+[  142.3s] DONE latent_ep75cl2.npy (9215, 20)
+=== ep75cl2: MEAN ARI=0.2763  MEAN NMI=0.3650  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep75bn50cl15 (cache=shared) :: {"n_epochs":75,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.5} =====
+[  283.0s] training done
+[  283.0s] DONE latent_ep75bn50cl15.npy (9215, 50)
+=== ep75bn50cl15: MEAN ARI=0.2790  MEAN NMI=0.3746  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep50bn50cl1g2 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"lambda_gene_expr_recon":2} =====
+[  300.3s] training done
+[  300.4s] DONE latent_ep50bn50cl1g2.npy (9215, 50)
+=== ep50bn50cl1g2: MEAN ARI=0.3031  MEAN NMI=0.3817  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+[g2] ROUND4 BATCH DONE

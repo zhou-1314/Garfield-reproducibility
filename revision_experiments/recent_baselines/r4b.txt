@@ -1,0 +1,4 @@
+ep65bn50cl1|shared|{"n_epochs":65,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0}
+ep75cl2|shared|{"n_epochs":75,"lambda_latent_contrastive_clusterloss":2.0}
+ep75bn50cl15|shared|{"n_epochs":75,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.5}
+ep50bn50cl1g2|shared|{"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"lambda_gene_expr_recon":2}

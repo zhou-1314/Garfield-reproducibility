@@ -1,0 +1,11 @@
+{
+  "defaults": "ATAC HVG=8000; RNA HVG=3000; k=14; epochs=20; h=[3000,3000]; l=1; a=b=c=d=1; weight=[1,5,5]",
+  "device": "cuda:0",
+  "duration_seconds": 1246.542,
+  "message": "soFusion completed using README spatial ATAC-RNA tutorial defaults.",
+  "method": "soFusion",
+  "n_obs": 9215,
+  "status": "success",
+  "timestamp": "2026-06-09 07:32:12 UTC",
+  "used_full_p22": true
+}

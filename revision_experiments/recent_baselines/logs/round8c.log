@@ -1,0 +1,12 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g3] cn30svdq10_s7 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"svd_q":10,"seed":7} =====
+[  291.2s] training done
+[  291.3s] DONE latent_cn30svdq10_s7.npy (9215, 50)
+=== cn30svdq10_s7: MEAN ARI=0.3051  MEAN NMI=0.3865  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g3] cn30svdq10_s123 (cache=shared) :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":1.0,"cluster_num":30,"svd_q":10,"seed":123} =====
+[  375.7s] training done
+[  375.8s] DONE latent_cn30svdq10_s123.npy (9215, 50)
+=== cn30svdq10_s123: MEAN ARI=0.3030  MEAN NMI=0.3819  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+[g3] ROUND4 BATCH DONE

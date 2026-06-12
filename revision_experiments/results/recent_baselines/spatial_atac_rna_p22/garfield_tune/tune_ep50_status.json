@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "tag": "ep50",
+  "overrides": {
+    "n_epochs": 50
+  },
+  "latent_dim": 20,
+  "n_obs": 9215,
+  "duration_seconds": 263.5
+}

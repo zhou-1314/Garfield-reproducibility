@@ -1,0 +1,9 @@
+file,batch,original_n_obs,used_n_obs,split
+nanostring_cosmx_human_nsclc_subsample_1pct_batch1.h5ad,lung5_rep1,932,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch2.h5ad,lung5_rep2,974,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch3.h5ad,lung5_rep3,916,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch4.h5ad,lung6,837,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch5.h5ad,lung9_rep1,773,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch6.h5ad,lung9_rep2,1156,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch7.h5ad,lung12,664,500,reference
+nanostring_cosmx_human_nsclc_subsample_1pct_batch8.h5ad,lung13,765,500,query

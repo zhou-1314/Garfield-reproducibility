@@ -1,0 +1,18 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g2] ep45bn50 :: {"n_epochs":45,"bottle_neck_neurons":50} =====
+[  315.7s] DONE latent_ep45bn50.npy (9215, 50)
+=== ep45bn50: MEAN ARI=0.3058  MEAN NMI=0.3760  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep50bn50cl2 :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_clusterloss":2.0} =====
+[  285.9s] DONE latent_ep50bn50cl2.npy (9215, 50)
+=== ep50bn50cl2: MEAN ARI=0.2978  MEAN NMI=0.3789  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep50bn50i2cl1 :: {"n_epochs":50,"bottle_neck_neurons":50,"lambda_latent_contrastive_instanceloss":2,"lambda_latent_contrastive_clusterloss":1} =====
+[  286.5s] DONE latent_ep50bn50i2cl1.npy (9215, 50)
+=== ep50bn50i2cl1: MEAN ARI=0.2938  MEAN NMI=0.3715  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] ep35bn50 :: {"n_epochs":35,"bottle_neck_neurons":50} =====
+[  249.8s] DONE latent_ep35bn50.npy (9215, 50)
+=== ep35bn50: MEAN ARI=0.3038  MEAN NMI=0.3786  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+[g2] BATCH DONE

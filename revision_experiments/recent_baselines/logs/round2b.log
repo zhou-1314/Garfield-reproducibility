@@ -1,0 +1,13 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+===== [g2] bn50 :: {"n_epochs":100,"bottle_neck_neurons":50} =====
+[  278.6s] DONE latent_bn50.npy (9215, 50)
+=== bn50: MEAN ARI=0.3030  MEAN NMI=0.3802  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] bn64 :: {"n_epochs":100,"bottle_neck_neurons":64} =====
+[  164.3s] DONE latent_bn64.npy (9215, 64)
+=== bn64: MEAN ARI=0.2989  MEAN NMI=0.3705  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no
+===== [g2] gene3adj50 :: {"n_epochs":100,"lambda_gene_expr_recon":3,"lambda_latent_adj_recon_loss":50} =====
+[  145.3s] DONE latent_gene3adj50.npy (9215, 20)
+=== gene3adj50: MEAN ARI=0.2847  MEAN NMI=0.3704  (SpatialGlue=0.314/0.391) ===
+BEATS SpatialGlue: no

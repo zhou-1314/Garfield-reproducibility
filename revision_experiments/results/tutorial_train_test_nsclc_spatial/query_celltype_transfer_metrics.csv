@@ -1,0 +1,2 @@
+label_key,prediction_key,n_query_scored,accuracy,balanced_accuracy,macro_f1
+cell_type,transferred_cell_type_unfiltered,500,0.498,0.2689149415676777,0.20781893224827228

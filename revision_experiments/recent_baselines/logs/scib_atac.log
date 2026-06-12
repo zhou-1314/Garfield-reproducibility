@@ -1,0 +1,13 @@
+bash: /home/zhouweige/anaconda3/envs/Garfield/lib/libtinfo.so.6: no version information available (required by bash)
+[SCORED] Garfield  ARI=0.3116 NMI=0.3563 AMI=0.3549 HOM=0.3119 SHT=0.4972 (n=9215, k=14->7)
+[SCORED] soFusion  ARI=0.2152 NMI=0.2419 AMI=0.2398 HOM=0.2143 SHT=0.4804 (n=9215, k=14->9)
+[SCORED] SpaMI  ARI=0.1767 NMI=0.3050 AMI=0.3023 HOM=0.3208 SHT=0.4591 (n=9215, k=14->14)
+[SCORED] SpaMosaic  ARI=0.2527 NMI=0.3443 AMI=0.3423 HOM=0.3397 SHT=0.4540 (n=9215, k=14->11)
+[SCORED] FGOT  ARI=0.0026 NMI=0.0211 AMI=0.0167 HOM=0.0230 SHT=0.4864 (n=9215, k=14->17)
+=== DONE ATAC_clusters ===
+method,n_obs_scored,n_target,n_pred,ARI,NMI,AMI,Homogeneity,Silhouette,gt_key
+Garfield,9215,14,7,0.3116,0.3563,0.3549,0.3119,0.4972,ATAC_clusters
+soFusion,9215,14,9,0.2152,0.2419,0.2398,0.2143,0.4804,ATAC_clusters
+SpaMI,9215,14,14,0.1767,0.305,0.3023,0.3208,0.4591,ATAC_clusters
+SpaMosaic,9215,14,11,0.2527,0.3443,0.3423,0.3397,0.454,ATAC_clusters
+FGOT,9215,14,17,0.0026,0.0211,0.0167,0.023,0.4864,ATAC_clusters

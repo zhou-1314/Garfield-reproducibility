@@ -1,0 +1,9 @@
+modality,n_obs,n_vars,label_key,present,n_missing,n_unique,has_spatial,has_counts_layer
+RNA,9215,22914,predicted.celltype,True,0,33,True,True
+RNA,9215,22914,ATAC_clusters,True,0,14,True,True
+RNA,9215,22914,RNA_clusters,True,0,11,True,True
+RNA,9215,22914,batch,True,0,1,True,True
+ATAC,9215,121068,predicted.celltype,True,0,33,True,True
+ATAC,9215,121068,ATAC_clusters,True,0,14,True,True
+ATAC,9215,121068,RNA_clusters,True,0,11,True,True
+ATAC,9215,121068,batch,True,0,1,True,True

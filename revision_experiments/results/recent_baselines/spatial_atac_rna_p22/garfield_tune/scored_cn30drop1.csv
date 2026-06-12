@@ -1,0 +1,4 @@
+method,n_obs_scored,n_target,n_pred,ARI,NMI,AMI,Homogeneity,Silhouette,gt_key
+Garfield_cn30drop1,9215,14,10,0.3118,0.3586,0.3567,0.341,0.5088,ATAC_clusters
+Garfield_cn30drop1,9215,11,13,0.3198,0.4052,0.4033,0.4289,0.5337,RNA_clusters
+Garfield_cn30drop1,9215,33,10,0.285,0.3696,0.3656,0.3132,0.4625,predicted.celltype

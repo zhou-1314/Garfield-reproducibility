@@ -1,0 +1,12 @@
+{
+  "defaults": "RNA HVG=3000/PCA=50; ATAC TF-IDF/LSI=50; spatial neighbors=6; epochs=400; out_dim=64; factors=[1,1,10,15,5]",
+  "device": "cuda:0",
+  "duration_seconds": 1117.663,
+  "message": "SpaMI completed using Tutorial 2 P22 defaults.",
+  "method": "SpaMI",
+  "n_obs": 9215,
+  "source": "/data2/zhouwg_data/project/Garfield_benchmark/SpaMI/SpaMI",
+  "status": "success",
+  "timestamp": "2026-06-10 04:02:28 UTC",
+  "used_full_p22": true
+}

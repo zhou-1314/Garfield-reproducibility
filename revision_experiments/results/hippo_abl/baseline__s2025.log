@@ -1,0 +1,55 @@
+Saving results in: /tmp/abl_hippo_baseline_s2025
+--- DATA LOADING AND PREPROCESSING ---
+COSINE SIM GRAPH DECODER -> dropout_rate: 0.2
+
+--- Using Original Trainer (Single GPU) ---
+Initializing original Garfield trainer...
+
+--- INITIALIZING TRAINER ---
+Using GPU: device-0
+Number of training nodes: 37607
+Number of validation nodes: 4179
+Number of training edges: 412770
+Number of validation edges: 45863
+Edge batch size: 4096
+Node batch size: 256
+
+--- MODEL TRAINING ---
+Traceback (most recent call last):
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/ablate_hippo.py", line 143, in <module>
+    main()
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/revision_experiments/ablate_hippo.py", line 117, in main
+    model.train()
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/model/Garfield.py", line 802, in train
+    return self.train_legacy(**trainer_kwargs)
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/model/Garfield.py", line 367, in train_legacy
+    self._train_with_original_trainer()
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/model/Garfield.py", line 727, in _train_with_original_trainer
+    trainer.train(
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/trainer/trainer.py", line 312, in train
+    edge_train_model_output = self.model(
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/modules/GNNModelVAE.py", line 294, in forward
+    encoder_outputs = self.encoder(data_batch, decoder_type, augment_type)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/nn/encoders.py", line 232, in forward
+    z_mean1, z_log_std1 = self._forward_through_layers(
+  File "/data2/zhouwg_data/project/Garfield-reproducibility/Garfield-garfield_dev/Garfield/nn/encoders.py", line 242, in _forward_through_layers
+    x, _ = layer(
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch_geometric/nn/conv/gat_conv.py", line 255, in forward
+    out = self.propagate(edge_index, x=x, alpha=alpha, size=size)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch_geometric/nn/conv/message_passing.py", line 463, in propagate
+    out = self.message(**msg_kwargs)
+  File "/home/zhouweige/anaconda3/envs/Garfield/lib/python3.9/site-packages/torch_geometric/nn/conv/gat_conv.py", line 300, in message
+    return alpha.unsqueeze(-1) * x_j
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 946.00 MiB. GPU 0 has a total capacty of 79.15 GiB of which 807.44 MiB is free. Process 108697 has 2.42 GiB memory in use. Process 42088 has 4.29 GiB memory in use. Process 784282 has 69.03 GiB memory in use. Including non-PyTorch memory, this process has 2.62 GiB memory in use. Of the allocated memory 2.05 GiB is allocated by PyTorch, and 77.23 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
