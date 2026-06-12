@@ -84,7 +84,7 @@ at your local copies of the public datasets below.
 | Analysis | Platform / data | Accession |
 |----------|-----------------|-----------|
 | sc RNA+ATAC integration | paired scRNA + scATAC (9 datasets) | see manuscript Supplementary Table 1 |
-| sc RNA+ADT integration | CITE-seq scRNA + scADT | GSE128639, GSE193181, GSE150599, Zenodo 6368128; see Supplementary Table 2 |
+| sc RNA+ADT integration | CITE-seq scRNA + scADT | GSE128639, GSE193181, Zenodo 6368128 (LUNG); see Supplementary Table 2 |
 | spatial multi-omics | mouse-brain spatial ATAC + RNA | see manuscript |
 | hippocampus niches | Slide-seqV2 mouse hippocampus | Stickels et al., 2021 |
 | olfactory bulb | Stereo-seq + Slide-seqV2; scRNA reference | GSE121891 |
