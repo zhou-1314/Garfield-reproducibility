@@ -64,5 +64,9 @@
   "use_lightning": false,
   "n_epochs": 50,
   "seed": 2025,
-  "device_id": 0
+  "device_id": 0,
+  "variant_flags": {
+    "include_instance_loss": true,
+    "include_cluster_loss": true
+  }
 }
